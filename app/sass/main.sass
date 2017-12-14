@@ -1,0 +1,424 @@
+@import "fonts"
+@import "libs"
+@import "vars" 
+
+
+/* ===== GENERAL STYLES START ===== */
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+	
+
+body
+	font-size: $base-font-size
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+	margin: 0 auto
+	max-width: 1920px
+	 
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	
+.text-right
+	text-align: right
+/* ===== GENERAL STYLES END ===== */
+
+
+
+
+/* HEADER START */
+@import "_sections/header"
+/* HEADER END */
+
+
+
+/* MAIN PAGE CATALOG SECTION START */
+.section__catalog, .catalog, .card__order
+	color: $heading_color 
+	
+	.container-fluid
+		padding: 0 !important
+
+
+.catalog__card
+	min-height: 408px 
+	position: relative
+	z-index: 1
+	overflow: hidden
+	&:before
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: #303030
+		opacity: 0.5 
+		z-index: 0
+	&:after
+		content: ""
+		display: table
+		clear: both 
+		
+	a
+		color: inherit
+		text-decoration: none 
+		
+//Иконка акции
+.action
+	&:after
+		content: 'акция'
+		display: inline-block
+		width: 88px
+		height: 88px
+		color: #FFF
+		text-align: center
+		text-transform: uppercase
+		font-family: $ProximaNovaSemibold
+		font-size: 20px
+		line-height: 88px
+		background-color: $accent_color
+		border-radius: 50%
+		position: absolute
+		top: 3%
+		left: 3%
+		z-index: 1
+		 
+.card__img
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	background-position: center center
+	background-repeat: no-repeat
+	background-size: cover
+	z-index: -1
+	transition: all 1s
+	
+.catalog__card
+	&:hover
+		.card__img
+			width: 106%
+			height: 106%
+			left: -3%
+			top: -3%	
+
+.card__content
+	z-index: 2
+	float: left
+	margin-top: 7em
+	margin-left: 5em
+
+.card__heading
+	margin-bottom: 5px
+	position: relative
+	font-family: $ProximaNovaSemibold
+	font-size: 2.1875em //35px
+	text-transform: uppercase
+	padding-bottom: 10px 
+	.card__tittle, .card__subtittle
+		font-size: inherit 
+		margin: 0
+		line-height: 1.2
+	&:after
+		content: ""
+		display: inline-block
+		height: 4px
+		width: 112px
+		position: absolute
+		left: 0
+		bottom: 0  
+		background-color: $accent_color
+		
+.card__price
+	.units
+		display: inline-block
+		font-size: 1.25em //20/25
+		line-height: 1 
+		
+.card__price--old
+	position: relative		
+	font-size: 1.5625em //25/16
+	.units
+		font-size: .8em //20/25
+	&:before
+		content: ""
+		display: inline-block
+		width: 6.5em
+		height: 1px
+		background-color: $accent_color
+		position: absolute
+		top: 50%
+		left: -4%
+				
+.card__price--new
+	max-width: 202px
+.card__price--accent
+	display: inline-block
+	font-size: 2.5em //40/16
+	font-family: $ProximaNovaBold 
+	line-height: 1 
+.units
+	display: inline-block
+	float: left
+	text-align: right
+	margin-top: 12px
+		
+/* MAIN PAGE CATALOG SECTION END */
+
+
+
+
+
+
+
+
+
+
+/* MAIN PAGE ORDER SECTION START */
+.main__order
+	padding-top: 58px
+	padding-bottom: 125px
+	background: url('../img/section-order-bg.jpg') no-repeat 50%
+	background-size: cover  
+	position: relative
+	z-index: 1
+	&:before, &:after
+		content: ""
+		display: inline-block
+		position: absolute 
+	&:before
+		width: 424px
+		height: 516px
+		bottom: 0
+		left: 50%
+		transform: translateX(43%)
+		background: url('../img/section-order-ok.png') no-repeat 50%
+	&:after
+		width: 801px
+		height: 355px
+		bottom: -50px
+		left: 50%
+		transform: translateX(-77%)
+		background: url('../img/section-order-nuts.png') no-repeat 50%
+		z-index: -1
+		
+	h2, h2+p
+		margin: 0
+		line-height: 1.4
+		text-transform: uppercase
+		text-align: center
+		
+	h2
+		font-size: 2.5em /* 40/16 */
+		font-family: $ProximaNovaSemibold 
+		color: #2E6E7A 
+		+ p
+			color: #3b3115
+			font-size: 1.875em
+
+			
+	.form__order
+		margin-top: 37px
+		
+		input, select
+			width: 100%
+			padding: 25px 14px
+			background-color: #2e6e7a
+			color: #fff
+			font-size: 1.25em
+			border-radius: 10px
+			border: none  
+			outline: none
+			&:hover
+				background-color: #25545D 
+			
+			&::-webkit-input-placeholder
+				color: #f0e5d0
+
+			&:-moz-placeholder
+				color: #f0e5d0
+
+			&::-moz-placeholder
+				color: #f0e5d0
+
+			&:-ms-input-placeholder
+				color: #f0e5d0
+			&:focus:required:invalid, &:required:valid
+				color: #f0e5d0
+		
+		.form__submit
+			margin-top: 48px
+			input[type="submit"]
+				background-color: #F0E5D0
+				border: 3px solid #2e6e7a
+				color: #3B3115
+				text-transform: uppercase
+				cursor: pointer
+				transition: transform .2s
+				&:active
+					transform: translate(1px,1px)
+				&:hover
+					background-color: #ffe9bf
+
+/* MAIN PAGE ORDER SECTION END */
+
+
+
+/* MAIN PAGE ADVANTAGES SECTION START */
+
+.main__advantages
+	padding: 75px 0 55px
+	.advantages__item
+		text-align: center
+	.advantages__img
+		margin: 0 auto
+		width: 141px
+		height: 141px
+		background: url('../img/adv-dots-border.png') no-repeat 50%
+		display: flex
+		align-items: center
+		justify-content: center
+	.advantages__text
+		margin-top: 12px
+		line-height: 1.2
+		font-size: 1.125em
+		color: #3B3115  
+
+/* MAIN PAGE ADVANTAGES SECTION END */
+
+
+
+/* MAIN PAGE SOCIAL SECTION START */
+
+.main__social
+	padding-top: 15px
+	background: url('../img/social-bg.jpg') no-repeat 50%
+	background-size: cover 
+	position: relative
+	color: #FFF 
+	&:after
+		content: ""
+		display: inline-block
+		width: 512px
+		height: 529px
+		position: absolute
+		left: 0
+		bottom: 0
+		background: url('../img/social-nutsbag.png') no-repeat
+		
+	.comment__img
+		width: 152px
+		height: 152px
+		position: relative
+		border-radius: 50%
+		overflow: hidden
+		display: flex
+		justify-content: center
+		align-items: center
+		&:before
+			content: ""
+			display: inline-block
+			width: 100%
+			height: 100%
+			position: absolute
+			top: 0
+			left: 0
+			background: url('../img/social-circle-img.png') no-repeat 50%
+			
+	.comment__author
+		padding-top: 48px 
+		font-size: 1.25em
+		.author__name
+			display: inline-block
+			color: #FFF
+			text-transform: uppercase
+			line-height: 1.2
+		.vk-link
+			display: inline-block
+			padding: 1px 15px
+			background-color: #F0E5D0
+			border-radius: 5px
+			a
+				color: #00416D
+				text-decoration: none
+			
+	.comment__text
+		font-size: 1.125em 
+		line-height: 1.2
+		
+	h4
+		text-align: center
+		font-size: 1.5em 
+		
+	#vk_groups
+		.wcommunity_header
+			display: none!important
+	
+	.about
+		font-size: 1.125em 
+		line-height: 1.2
+		p:first-child
+			text-align: center
+			text-transform: uppercase
+
+.wcommunity_wrap
+	background: red !important 
+#main
+	background: red!important 
+/* MAIN PAGE SOCIAL SECTION END */
+
+
+
+
+
+/* FOOTER START */
+@import "_sections/footer"
+/* FOOTER END */
+
+
+
+@import "_pages/card"
+
+
+@import "media"

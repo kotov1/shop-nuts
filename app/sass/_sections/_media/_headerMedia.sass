@@ -1,0 +1,340 @@
+@import "vars"
+
+@media only screen and (max-width : 1200px)
+	//HEADER BEGIN
+	header
+		.site-description
+			letter-spacing: 3.2px
+		.offer
+			.tel
+				background: url(../img/tel.png) no-repeat center left 7px
+	.clock
+		width: 89%
+		//transform: scale(0.8)
+	//HEADER END
+
+
+@media only screen and (max-width : 992px)
+	//HEADER BEGIN
+	header
+		.header__top-line
+			padding-bottom: 5px
+			padding-top: 0
+		.site-description
+			letter-spacing: 1.3px
+			font-size: 11px
+		.search
+			input
+				padding: 15px 15px
+		.offer
+			a
+				font-size: 18px
+				padding: 5px 0
+
+			.tel
+				background: url(../img/tel.png) no-repeat center left 3px
+		.header__action
+			font-size: 0.7em
+			p:nth-child(4)
+				padding: 0 50px
+	.clock
+		width: 100%
+		//transform: scale(0.6)
+	.flip-clock-wrapper ul li
+		line-height: 120px
+	.flip-clock-wrapper ul
+		width: 68px
+		height: 120px
+	.flip-clock-wrapper ul li a div div.inn
+		font-size: 60px
+	.flip-clock-wrapper ul li a div.up:after
+		top: 59px
+		background-color: white
+	.counter
+		.button-go-catalog
+			width: 370px
+
+	.flip-clock-divider .flip-clock-label
+		top: 150px
+		font-size: 18px
+		right: -100px
+	.flip-clock-divider.hours .flip-clock-label
+		right: -110px
+	.flip-clock-divider.minutes .flip-clock-label
+		right: -110px
+	.flip-clock-divider.seconds .flip-clock-label
+		right: -115px
+	nav
+		&:before
+			width: 40px
+			height: 45px
+		&:after
+			width: 40px
+			height: 45px
+	ul.nav
+		li
+			padding: 0
+			margin-right: 2px
+			a
+				font-size: 16px
+	//HEADER END
+
+
+@media only screen and (max-width : 768px)
+	header
+		text-align: center
+		.site-description
+			font-size: 16px
+		.logo
+			margin-top: 10px
+			img
+				display: block
+				margin: 0 auto
+				max-width: 210px
+		.search
+			max-width:  300px
+			margin: 0 auto
+			margin-top: 10px
+			input
+				padding: 11px
+		.offer
+			max-width:  250px
+			margin: 0 auto
+		.header__action
+			font-size: 0.5em
+			p:nth-child(4)
+				padding: 10px 50px
+
+
+	.clock
+		width: auto
+		display: flex
+		justify-content: center
+	.flip-clock-divider
+		width: 10px
+	.flip-clock-wrapper ul li
+		line-height: 102px
+	.flip-clock-wrapper ul
+		width: 50px
+		height: 100px
+	.flip-clock-wrapper ul li a div div.inn
+		font-size: 42px
+	.flip-clock-wrapper ul li a div.up:after
+		top: 49px
+		background-color: white
+	.flip-clock-divider .flip-clock-label
+		top: 120px
+		font-size: 16px
+		right: -80px
+	.flip-clock-divider.hours .flip-clock-label
+		right: -85px
+	.flip-clock-divider.minutes .flip-clock-label
+		right: -85px
+	.flip-clock-divider.seconds .flip-clock-label
+		right: -90px
+	.counter
+		.button-go-catalog
+			width: 370px
+
+
+		.flip:nth-child(2),.flip:nth-child(3)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #5D5984 0) top left, radial-gradient(circle at top right,transparent 10px, #5D5984 0) top right, radial-gradient(circle at bottom right,transparent 0px, #5D5984 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #5D5984 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #5D5984 0) top left, radial-gradient(circle at top right,transparent 0px, #5D5984 0) top right, radial-gradient(circle at bottom right,transparent 10px, #5D5984 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #5D5984 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+
+		.flip:nth-child(5),.flip:nth-child(6)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #9E4155 0) top left, radial-gradient(circle at top right,transparent 10px, #9E4155 0) top right, radial-gradient(circle at bottom right,transparent 0px, #9E4155 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #9E4155 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #9E4155 0) top left, radial-gradient(circle at top right,transparent 0px, #9E4155 0) top right, radial-gradient(circle at bottom right,transparent 10px, #9E4155 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #9E4155 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+
+		.flip:nth-child(8),.flip:nth-child(9)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #E9A956 0) top left, radial-gradient(circle at top right,transparent 10px, #E9A956 0) top right, radial-gradient(circle at bottom right,transparent 0px, #E9A956 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #E9A956 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #E9A956 0) top left, radial-gradient(circle at top right,transparent 0px, #E9A956 0) top right, radial-gradient(circle at bottom right,transparent 10px, #E9A956 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #E9A956 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+
+		.flip:nth-child(11),.flip:nth-child(12)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #378493 0) top left, radial-gradient(circle at top right,transparent 10px, #378493 0) top right, radial-gradient(circle at bottom right,transparent 0px, #378493 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #378493 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #378493 0) top left, radial-gradient(circle at top right,transparent 0px, #378493 0) top right, radial-gradient(circle at bottom right,transparent 10px, #378493 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #378493 0) bottom left
+				background-size: 51% 51%
+				background-repeat: no-repeat
+
+
+	//menu
+	nav
+		position: fixed
+		right: 5px
+		top: 67px
+		z-index: 9999
+		&:before
+			content: none
+		&:after
+			content: none
+
+	.header__bottom-line
+		height: 0
+		padding: 0
+	ul.nav
+		display: none
+		background: rgb(240,229,208)
+		border: 1px solid black
+
+		min-width: 250px
+		position: absolute
+		right: 0
+		top: 60px
+		li
+			display: block
+			text-align: center
+			border-bottom: 1px solid black
+			&:last-child
+				border-bottom: none
+			a
+				color: $main_color
+				padding: 7px
+	.menu-icon
+		display: inline-block
+
+	//HEADER END
+
+
+@media only screen and (max-width : 576px)
+	header
+		.header__action
+			font-size: 0.4em
+			p:nth-child(4)
+				padding: 10px 50px
+	.clock
+		width: 500px
+		transform: scale(0.8)
+	.flip-clock-divider
+		width: 2px
+	.flip-clock-wrapper ul li
+		line-height: 100px
+	.flip-clock-wrapper ul
+		width: 50px
+		height: 100px
+	.flip-clock-wrapper ul li a div div.inn
+		font-size: 42px
+	.flip-clock-wrapper ul li a div.up:after
+		top: 49px
+		background-color: white
+	.flip-clock-divider .flip-clock-label
+		top: 120px
+		font-size: 16px
+		right: -80px
+	.flip-clock-divider.hours .flip-clock-label
+		right: -85px
+	.flip-clock-divider.minutes .flip-clock-label
+		right: -85px
+	.flip-clock-divider.seconds .flip-clock-label
+		right: -90px
+	.counter
+		p:first-child
+			font-size: 20px
+		.button-go-catalog
+			width: 270px
+			font-size: 22px
+			margin-top: 50px
+
+
+@media only screen and (max-width : 480px)
+	header
+		.header__action
+			p:nth-child(4)
+				padding: 10px 45px
+	.clock
+		width: auto
+		display: flex
+		justify-content: center
+	.flip-clock-divider
+		width: 3px
+	.flip-clock-wrapper ul li
+		line-height: 70px
+	.flip-clock-wrapper ul
+		width: 31px
+		height: 70px
+		margin: 2px
+	.flip-clock-wrapper ul li a div div.inn
+		font-size: 30px
+	.flip-clock-wrapper ul li a div.up:after
+		top: 49px
+		background-color: white
+	.flip-clock-divider .flip-clock-label
+		top: 85px
+		font-size: 13px
+		right: -50px
+	.flip-clock-divider.hours .flip-clock-label
+		right: -59px
+	.flip-clock-divider.minutes .flip-clock-label
+		right: -59px
+	.flip-clock-divider.seconds .flip-clock-label
+		right: -62px
+
+	.counter
+		p:first-child
+			font-size: 14px
+		.button-go-catalog
+			width: 270px
+			font-size: 18px
+			margin-top: 40px
+			margin-bottom: 20px
+			width: 210px
+			padding: 10px 0
+		.flip:nth-child(2),.flip:nth-child(3)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #5D5984 0) top left, radial-gradient(circle at top right,transparent 10px, #5D5984 0) top right, radial-gradient(circle at bottom right,transparent 0px, #5D5984 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #5D5984 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #5D5984 0) top left, radial-gradient(circle at top right,transparent 0px, #5D5984 0) top right, radial-gradient(circle at bottom right,transparent 10px, #5D5984 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #5D5984 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+
+		.flip:nth-child(5),.flip:nth-child(6)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #9E4155 0) top left, radial-gradient(circle at top right,transparent 10px, #9E4155 0) top right, radial-gradient(circle at bottom right,transparent 0px, #9E4155 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #9E4155 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #9E4155 0) top left, radial-gradient(circle at top right,transparent 0px, #9E4155 0) top right, radial-gradient(circle at bottom right,transparent 10px, #9E4155 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #9E4155 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+
+		.flip:nth-child(8),.flip:nth-child(9)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #E9A956 0) top left, radial-gradient(circle at top right,transparent 10px, #E9A956 0) top right, radial-gradient(circle at bottom right,transparent 0px, #E9A956 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #E9A956 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #E9A956 0) top left, radial-gradient(circle at top right,transparent 0px, #E9A956 0) top right, radial-gradient(circle at bottom right,transparent 10px, #E9A956 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #E9A956 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+
+		.flip:nth-child(11),.flip:nth-child(12)
+			div.up
+				background: radial-gradient(circle at top left,transparent 10px, #378493 0) top left, radial-gradient(circle at top right,transparent 10px, #378493 0) top right, radial-gradient(circle at bottom right,transparent 0px, #378493 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #378493 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat
+			div.down
+				background: radial-gradient(circle at top left,transparent 0px, #378493 0) top left, radial-gradient(circle at top right,transparent 0px, #378493 0) top right, radial-gradient(circle at bottom right,transparent 10px, #378493 0) bottom right, radial-gradient(circle at bottom left,transparent 10px, #378493 0) bottom left
+				background-size: 55% 55%
+				background-repeat: no-repeat

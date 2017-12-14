@@ -1,0 +1,370 @@
+//global begin
+a
+	text-decoration: none
+ul
+	padding: 0
+	margin: 0
+//global end
+
+//BEGIN HEADER
+header
+	.logo
+		max-width: 300px
+		img
+			width: 100%
+
+	.header__top-line
+		background: rgb(240,229,208)
+		position: relative
+		padding-bottom: 8px
+		padding-top: 2px
+		text-align: center
+	.site-description
+		text-transform: uppercase
+		letter-spacing: 3.5px
+		font-size: 20px
+		margin: 0
+		padding: 0
+		line-height: 1
+
+	.search
+		form
+			width: 100%
+			margin: 0 auto
+			display: block
+		input
+			color: #000
+			font-size: 16px
+			border: 1px solid black
+			border-radius: 10px
+			width: 100%
+			display: inline-block
+			vertical-align: bottom
+			padding: 22px 15px
+			background: url(../img/search.png) no-repeat center right 20px
+			&:focus
+				outline: none
+				border: 1px solid green
+				background: none
+	.offer
+		text-align: center
+		.tel	
+			padding: 0
+			margin: 0
+			font-size: 1.4375em //23px
+			font-family: "ProximaNovaSemibold"
+			background: url(../img/tel.png) no-repeat center left 20px
+			white-space: nowrap
+			span
+				font-size: 0.7826em //18px
+				font-family: $default-font
+
+		a
+			padding: 8px 0
+			background: rgb(46,110,122)
+			color: white
+			text-transform: uppercase
+			font-size: 1.25em //20px
+			border-radius: 7px
+			display: block
+			//margin-bottom: 5px
+	.header__countdown
+		background: url(../img/header_bg.jpg)
+		background-size: cover
+		position: relative
+		&:before
+			position: absolute
+			content: ''
+			width: 100%
+			height: 100%
+			left: 0
+			top: 0
+			background: rgba(0, 0, 0,.7)
+	.header__action
+		text-align: center
+		text-transform: uppercase
+		color: white
+		h3:nth-child(1)
+			font-size: 2.8185em  //45px
+			font-family: "ProximaNovaBold"
+			color: white
+			margin-top: 30px
+			margin-bottom: 0
+			letter-spacing: 1.5px
+		p:nth-child(2)
+			font-size: 2.5em //40px
+			font-family: "proxima-light"
+			color: rgb(229,154,56)
+			margin-top: 0px
+			margin-bottom: 0
+			line-height: 1
+			letter-spacing: 1.5px
+			span
+				font-size: 1.125em //45px
+				font-family: "ProximaNovaSemibold"
+		p:nth-child(3)
+			font-size: 2.5em //40px
+			font-family: "ProximaNovaSemibold"
+			color: white
+			margin-top: 25px
+			margin-bottom: 0
+			line-height: 1.25
+			span
+				font-size: 1.25em //50px
+		p:nth-child(4)
+			font-size: 2.5em //40px
+			font-family: $default-font
+			color: white
+			margin-top: 0
+			line-height: 1.25
+			padding: 0 150px
+			letter-spacing: 1.5px
+			margin-bottom: 0
+
+//clock begin
+.counter
+	p:first-child
+		text-align: center
+		margin: 0
+		font-size: 30px
+		color: white
+		margin: 0
+		line-height: 1.2
+		letter-spacing: 1px
+		margin-bottom: 10px
+	.button-go-catalog
+		display: block
+		width: 420px
+		margin: 33px auto
+		margin-top: 75px
+		text-transform: uppercase
+		font-size: 25px
+		font-family: "ProximaNovaSemibold"
+		background: #9E4155
+		border-radius: 7px
+		text-align: center
+		padding: 16px
+		color: white
+		
+
+
+
+
+	.flip:nth-child(2),.flip:nth-child(3)
+		div.up
+			border-bottom-left-radius: 0
+			border-bottom-right-radius: 0
+			background-color: #5D5984
+			background: radial-gradient(circle at top left,transparent 15px, #5D5984 0) top left, radial-gradient(circle at top right,transparent 15px, #5D5984 0) top right, radial-gradient(circle at bottom right,transparent 0px, #5D5984 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #5D5984 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		div.down
+			border-top-left-radius: 0
+			border-top-right-radius: 0
+			background-color: #5D5984
+			background: radial-gradient(circle at top left,transparent 0px, #5D5984 0) top left, radial-gradient(circle at top right,transparent 0px, #5D5984 0) top right, radial-gradient(circle at bottom right,transparent 15px, #5D5984 0) bottom right, radial-gradient(circle at bottom left,transparent 15px, #5D5984 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+
+		.inn
+			background-color: transparent
+
+	.flip:nth-child(5),.flip:nth-child(6)
+		div.up
+			border-bottom-left-radius: 0
+			border-bottom-right-radius: 0
+			background-color: #9E4155
+			background: radial-gradient(circle at top left,transparent 15px, #9E4155 0) top left, radial-gradient(circle at top right,transparent 15px, #9E4155 0) top right, radial-gradient(circle at bottom right,transparent 0px, #9E4155 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #9E4155 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		div.down
+			border-top-left-radius: 0
+			border-top-right-radius: 0
+			background-color: #9E4155
+			background: radial-gradient(circle at top left,transparent 0px, #9E4155 0) top left, radial-gradient(circle at top right,transparent 0px, #9E4155 0) top right, radial-gradient(circle at bottom right,transparent 15px, #9E4155 0) bottom right, radial-gradient(circle at bottom left,transparent 15px, #9E4155 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		.inn
+			background-color: transparent
+
+	.flip:nth-child(8),.flip:nth-child(9)
+		div.up
+			border-bottom-left-radius: 0
+			border-bottom-right-radius: 0
+			background-color: #E9A956
+			background: radial-gradient(circle at top left,transparent 15px, #E9A956 0) top left, radial-gradient(circle at top right,transparent 15px, #E9A956 0) top right, radial-gradient(circle at bottom right,transparent 0px, #E9A956 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #E9A956 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		div.down
+			border-top-left-radius: 0
+			border-top-right-radius: 0
+			background-color: #E9A956
+			background: radial-gradient(circle at top left,transparent 0px, #E9A956 0) top left, radial-gradient(circle at top right,transparent 0px, #E9A956 0) top right, radial-gradient(circle at bottom right,transparent 15px, #E9A956 0) bottom right, radial-gradient(circle at bottom left,transparent 15px, #E9A956 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		.inn
+			background-color: transparent
+			
+	.flip:nth-child(11),.flip:nth-child(12)
+		div.up
+			border-bottom-left-radius: 0
+			border-bottom-right-radius: 0
+			background-color: #378493
+			background: radial-gradient(circle at top left,transparent 15px, #378493 0) top left, radial-gradient(circle at top right,transparent 15px, #378493 0) top right, radial-gradient(circle at bottom right,transparent 0px, #378493 0) bottom right, radial-gradient(circle at bottom left,transparent 0px, #378493 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		div.down
+			border-top-left-radius: 0
+			border-top-right-radius: 0
+			background-color: #378493
+			background: radial-gradient(circle at top left,transparent 0px, #378493 0) top left, radial-gradient(circle at top right,transparent 0px, #378493 0) top right, radial-gradient(circle at bottom right,transparent 15px, #378493 0) bottom right, radial-gradient(circle at bottom left,transparent 15px, #378493 0) bottom left
+			background-size: 51% 51%
+			background-repeat: no-repeat
+		.inn
+			background-color: transparent
+.clock
+	text-align: center
+	width: 74%
+	margin: 0 auto
+.flip-clock-wrapper
+	text-align: center
+.flip-clock-wrapper .flip
+	box-shadow: none
+.flip-clock-wrapper ul
+	width: 85px
+	height: 157px
+	background: none
+.flip-clock-wrapper ul li
+	line-height: 157px
+.flip-clock-wrapper ul li a div div.inn
+	font-size: 80px
+	transform: scale(1, 1.5)
+	font-family: "ProximaNovaRegular"
+	border-radius: 0
+.flip-clock-wrapper ul li a div.up:after
+	top: 78px
+	background-color: #cccccc54
+	height: 1px
+.flip-clock-dot
+	background-color: transparent
+	box-shadow: none
+
+.flip-clock-wrapper ul li a div.down
+	border-radius: 10px
+	border-top-left-radius: 10px
+	border-top-right-radius: 10px
+.flip-clock-wrapper ul li a div.up
+	border-radius: 10px
+	border-bottom-left-radius: 10px
+	border-bottom-right-radius: 10px
+.flip-clock-divider .flip-clock-label
+	color: white
+	font-size: 20px
+	top: 180px
+	text-transform: uppercase
+	font-size: 25px
+	right: -130px
+.flip-clock-divider.hours .flip-clock-label
+	right: -140px
+.flip-clock-divider.minutes .flip-clock-label
+	right: -140px
+.flip-clock-divider.seconds .flip-clock-label
+	right: -145px
+
+
+//menu
+.header__bottom-line
+	background: rgb(240,229,208)
+	padding: 18px 0
+
+nav
+	position: relative
+	text-align: center
+	&:before
+		content: ''
+		position: absolute
+		top: -10px
+		left: 0px
+		width: 55px
+		height: 60px
+		background: url(../img/plant.png) no-repeat top center
+		background-size: contain
+	&:after
+		content: ''
+		position: absolute
+		top: -10px
+		right: -0px
+		width: 55px
+		height: 60px
+		background: url(../img/plant.png) no-repeat top center
+		background-size: contain
+ul.nav
+	margin: 0
+	padding: 0
+	li
+		display: inline-block
+		margin-right: 5px
+		padding: 5px
+	a
+		text-decoration: none
+		text-transform: uppercase
+		display: block
+		color: $main_color
+		font-size: 18px
+.menu-icon
+	display: none	
+	cursor: pointer
+	padding: 5px
+	border: 1px solid #000
+	background: $main_color
+	width: 50px
+	height: 50px
+	position: absolute
+	right: 0
+	top: 10px
+	padding: 7px
+	span
+		border: 2px solid #fff
+		width: 30px
+		display: block
+		transition: all 0.2s
+		margin: 5px auto
+.menu-icon.active
+	.first
+		transform: rotate(45deg)
+		-webkit-transform: rotate(45deg)
+		margin-top: 15px
+	.second
+		transform: rotate(135deg)
+		-webkit-transform: rotate(135deg)
+		position: relative
+		top: -9px
+	.third
+		display: none
+		transition: all 0.1s
+
+.a_hover a
+	position: relative
+	text-decoration: none
+	color: #000
+	&::after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 4px
+		bottom: 0
+		left: 0
+		background-color: rgb(59,49,21)
+		visibility: hidden
+		transform: scaleX(0)
+		transition: all .5s
+		color: #000
+	&:hover::after
+		visibility: visible
+		transform: scaleX(1)
+		&:active
+			color: red
+
+.nav
+	@extend .a_hover
+//END HEADER

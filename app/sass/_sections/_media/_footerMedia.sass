@@ -1,0 +1,85 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	//HEADER BEGIN
+	footer
+		.site-description
+			letter-spacing: 3.2px
+		.offer
+			.tel
+				background: url(../img/tel.png) no-repeat center left 7px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	//HEADER BEGIN
+	footer
+		.footer__top-line
+			padding-bottom: 5px
+			padding-top: 0
+		.site-description
+			letter-spacing: 1.3px
+			font-size: 11px
+		.search
+			input
+				padding: 15px 15px
+		.offer
+			a
+				font-size: 18px
+				padding: 5px 0
+
+			.tel
+				background: url(../img/tel.png) no-repeat center left 3px
+	.footer__bottom
+		.politic
+			margin-top: -15px
+			padding-bottom: 10px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	footer
+		text-align: center
+		.site-description
+			font-size: 16px
+			letter-spacing: 1px
+		.logo
+			margin-top: 10px
+			max-width: 100%
+			img
+				display: block
+				margin: 0 auto
+				max-width: 210px
+		.search
+			max-width:  300px
+			margin: 0 auto
+			margin-top: 0px
+			input
+				padding: 11px
+				margin-top: 0
+		.offer
+			max-width:  250px
+			margin: 0 auto
+		.social-icon
+			text-align: center
+	.footer__bottom
+		.politic
+			margin: 0
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 576px)
+	.footer__bottom
+		.politic
+			font-size: 16px
+			a
+				font-size: 14px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 480px)
+	.footer__bottom
+		.politic
+			margin-top: 5px
+			a
+				display: block
+
+/* Small Devices, Tablets */

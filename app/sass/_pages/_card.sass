@@ -1,0 +1,90 @@
+.card__order
+	position: relative
+	min-height: 815px 
+	&:before
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: #303030
+		opacity: 0.5 
+		z-index: 0
+		
+	.order__text
+		margin-top: 11.5em
+		
+		//Иконка акции
+		&.action
+			&:after
+				left: 1%
+				top: 8%
+		
+	.card__heading
+		margin-bottom: 0
+		padding-bottom: 0
+		&:after
+			display: none
+		
+	
+	.card__descr
+		margin: 0
+		font-size: 1.375em 
+		
+	.order__count
+		margin-top: 10px 
+		p
+			margin: 0
+			margin-bottom: 11px 
+			font-size: 1.5625em 
+			font-family: $ProximaNovaSemibold
+			color: #E59A38  
+			
+
+	.card__amount
+		width: auto
+		max-width: 2.8em 
+		font-size: 2.1875em
+		padding: .5em 0 .3em .4em
+		font-family: $ProximaNovaSemibold
+		text-align: center
+		background-color: $accent_color
+		color: $heading_color
+		border-radius: 5px
+		border: none
+		outline: none 
+		transition: all .3s
+		&:hover
+			background-color: #FFA631 
+ 		
+
+	.card__price
+		margin-left: 11px
+		font-size: 1.375em //22px
+ 	.card__price--accent
+ 		font-size: 1.363636363636364em //30/22px
+
+			
+			
+.card__btn
+	margin-top: .425em //17/40px
+	display: inline-block
+	padding: .35em .65em .35em 1.25em //14px 26px 14px 50px
+	font-size: 2.5em //40/16
+	font-family: $ProximaNovaBold 
+	line-height: 1
+	background: #9E4155 url('../img/card/cart.png') no-repeat 5% 50%
+	border: none
+	outline: none
+	border-radius: .2em
+	color: $heading_color
+	cursor: pointer
+	transition: all .3s
+	&:hover
+		background-color: #C13A57
+	&:active
+		transform: translate(1px,1px)
+	span
+		font-size: .75em 
