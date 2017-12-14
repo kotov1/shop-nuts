@@ -51,7 +51,7 @@
 							<h3 class="card__tittle">кедровый орех</h3>
 							<p class="card__subtittle">очищенный</p>
 						</div>
-						<p class="card__descr">Кедровый орех заботится о здоровье — это факт! </p>
+						<p class="card__descr">Кедровый орех заботится о здоровье — это факт!</p>
 						<div class="order__count">
 							<p>Выберите количество:</p>
 							<div class="row no-gutters">
@@ -59,7 +59,7 @@
 									<input type="number" class="card__amount" value="1" min="0">
 								</div>
 								<div class="col align-self-center">
-									<span class="card__price">Упаковка по 1кг. за <span class="card__price--accent">1490</span> рублей<span>
+									<span class="card__price">Упаковка по 1кг. за <span class="card__price--accent">1490</span> рублей</span>
 								</div>
 							</div>
 							<button class="card__btn">1 490<span>₽</span></button>
@@ -74,31 +74,85 @@
 
 
 	<!-- CARD PAGE DESCRIPTION SECTION START-->
-	<section class="card__order">
+	<section class="card__description">
 		<div class="container">
 			<div class="row">
-				<div class="card__img" style="background-image: url('img/card/kedr1.jpg');"></div>
-				<div class="col-12">
-					<div class="order__text action">
-						<div class="card__heading">
-							<h3 class="card__tittle">кедровый орех</h3>
-							<p class="card__subtittle">очищенный</p>
-						</div>
-						<p class="card__descr">Кедровый орех заботится о здоровье — это факт! </p>
-						<div class="order__count">
-							<p>Выберите количество:</p>
-							<div class="row no-gutters">
-								<div class="col-auto">
-									<input type="number" class="card__amount" value="1" min="0">
+				<div class="card__img" style="background-image: url('img/card/kedr2.jpg');"></div>
+				<div class="col-6 ml-auto">
+					<div class="card__heading">
+						<h3>Кедровый орех заботится о здоровье — это факт!</h3>
+					</div>
+				</div>
+				<div class="row">
+
+					<div class="col-lg-6">
+						<div class="vitamins">
+							<div class="row">
+								<div class="col-12"><h4>Витамины</h4></div>
+								<div class="col-lg-6">
+									<ul>
+										<li>PP 4,37  мг</li>
+										<li>A (РЭ) 1  мкг</li>
+										<li>B1 (тиамин) 0,364  мг</li>
+										<li>B2 (рибофлавин) 0,227  мг</li>
+										<li>B5 (пантотеновая) 0,313  мг</li>
+										<li>B6 (пиридоксин) 0,094  мг</li>
+									</ul>
 								</div>
-								<div class="col align-self-center">
-									<span class="card__price">Упаковка по 1кг. за <span class="card__price--accent">1490</span> рублей<span>
+								<div class="col-lg-6">
+									<ul>
+										<li>B9 (фолиевая) 34  мкг</li>
+										<li>C 0,8  мг</li>
+										<li>E (ТЭ) 9,33  мг</li>
+										<li>К (филлохинон) 53,9  мкг</li>
+										<li>PP (Ниациновый эквивалент) 4,387  м</li>
+										<li>Бэта-каротин 0,017  мг</li>
+									</ul>
 								</div>
 							</div>
-							<button class="card__btn">1 490<span>₽</span></button>
 						</div>
-					</div> <!-- /.order__text -->
-				</div> <!-- /.col-12 -->
+						<div class="food-value">
+							<div class="row">
+								<div class="col-12"><h4>Пищевая ценность</h4></div>
+								<div class="col-lg-6">
+									<ul>
+										<li>Калорийность 673  кКал</li>
+										<li>Белки 13,69  гр</li>
+										<li>Жиры 68,37  гр</li>
+										<li>Углеводы 13,08  гр</li>
+										<li>Пищевые волокна 3,7  гр</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<ul>
+										<li>Насыщеные жирные кислоты  4,899  гр</li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<p class="nut-history">Кедровые орехи или «семена долголетия» известны с XI века, но в России были обнаружены сибирскими исследователями в XV веке. Известен факт, что еще римские легионеры брали в поход горсть кедровых орехов, которые помогали набраться сил после тяжелых сражений.</p>
+						<div class="important-to-know">
+							<h4>Важно знать о Кедровом орехе:</h4>
+							<ul>
+								<li>Кедровый орех оказывает незаменимое влияние на умственное и физическое развитие детей. </li>
+								<li>Обладает целебными свойствами благодаря высокому содержанию белка.</li>
+								<li>Издавна применялись при нервных расстройствах и язве желудка. </li>
+								<li>Станет надёжным помощнико в борьбе с лишним весом и не содержат холестерина. </li>
+								<li>Продукт не имеет противопоказаний к употреблению. </li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- /.row -->
+				<div class="col-12">
+					<p class="energy-value">Энергетическая ценность Кедровый орех составляет 673 кКал.</p>
+				</div>
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</section>

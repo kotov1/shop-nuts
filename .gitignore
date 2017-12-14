@@ -2,7 +2,10 @@
 /dist/
 /.git/
 /app/css/
-/app/libs/
+/app/libs/animate.css/
+/app/libs/bootstrap/
+/app/libs/wow/
+/app/libs/jquery/
 /**/*.psd
 /**/Thumbs.db
 /**/*.DS_Store
