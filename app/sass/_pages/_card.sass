@@ -1,6 +1,16 @@
-.page__card
-	color: $heading_color
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
 
+ 
+input[type="number"]
+    -moz-appearance: textfield
+
+
+
+.page__card
+	.card-content
+		color: $heading_color
 
 
 /* CARD PAGE ORDER SECTION START */
@@ -53,7 +63,7 @@
 		width: auto
 		max-width: 2.8em 
 		font-size: 2.1875em
-		padding: .5em 0 .3em .4em
+		padding: .5em 0 .3em 0em
 		font-family: $ProximaNovaSemibold
 		text-align: center
 		background-color: $accent_color
@@ -284,5 +294,49 @@
 
 
 /* CARD PAGE MORE INFO SECTION START */
+.moreInfo
+	padding: 12px 0 26px
+	background: url("../img/card/moreInfo-bg.jpg") no-repeat 50%
+	background-size: cover
+	font-family: $ProximaNovaSemibold
+	position: relative
+	&:before
+		content: ""
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		background: rgba(85,85,85,.5) 
+	h4
+		margin: 0
+		font-size: 1.875em //30px
+		text-transform: uppercase
+		color: $accent_color
+	h5
+		margin: 0
+		font-size:  1.25em //20px
+		text-transform: uppercase
+		transform: skew(-10deg)
+	p
+		margin: 0 0 20px 0
+		line-height: 1.2
+	.text-block
+		margin-bottom: 30px
+		p
+			margin: 0
+	.info__img--top, .info__img--bottom
+		img
 
+	.info__img--top
+		margin-left: 50px
+		float: right
+	.info__img--bottom
+		margin-top: 40px
+		margin-right: 10px
+		float: left
+	.btn-wrap
+		margin-top: 50px
+		text-align: center
 /* CARD PAGE MORE INFO SECTION END */

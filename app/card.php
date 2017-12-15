@@ -41,7 +41,7 @@
 <main class="card-content">
 	
 	<!-- CARD PAGE ORDER SECTION START-->
-	<section class="card__order">
+	<section class="card__order wow fadeIn" data-wow-duration=".5s">
 		<div class="container">
 			<div class="row">
 				<div class="card__img" style="background-image: url('img/card/kedr1.jpg');"></div>
@@ -74,7 +74,7 @@
 
 
 	<!-- CARD PAGE DESCRIPTION SECTION START-->
-	<section class="card__description">
+	<section class="card__description wow fadeIn" data-wow-duration=".5s">
 		<div class="container">
 			<div class="row">
 				<div class="card__img" style="background-image: url('img/card/kedr2.jpg');"></div>
@@ -237,7 +237,7 @@
 
 				<!-- greece-but -->
 				<div class="col-lg-6 col-md-12 col-sm-12">
-					<div class="catalog__card action wow slideInRight" data-wow-delay=".2s" data-wow-duration="1s">
+					<div class="catalog__card action wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1s">
 						<a href="#">
 						<div class="card__img" style="background-image: url('img/nuts-greece-but.jpg');"></div>
 						<div class="card__content">
@@ -260,7 +260,7 @@
 				
 				<!-- mindal -->
 				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="catalog__card wow slideInRight" data-wow-delay=".2s" data-wow-duration="1s">
+					<div class="catalog__card wow slideInRight" data-wow-delay=".1s" data-wow-duration="1s">
 						<a href="#">
 						<div class="card__img" style="background-image: url('img/nuts-mindal.jpg');"></div>
 						<div class="card__content">
@@ -283,7 +283,7 @@
 
 				<!-- pistachios -->
 				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="catalog__card wow slideInRight" data-wow-delay=".2s" data-wow-duration="1s">
+					<div class="catalog__card wow slideInRight" data-wow-delay=".3s" data-wow-duration="1s">
 						<a href="#">
 						<div class="card__img" style="background-image: url('img/nuts-pistachios.jpg');"></div>
 						<div class="card__content">
@@ -312,6 +312,30 @@
 
 
 	<!-- CARD PAGE MORE INFO SECTION START-->
+	<section class="moreInfo wow fadeIn" data-wow-duration=".5s">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h4>Дополнительная информация о продукте</h4>
+					<h5>Кедровый орех спасёт при тяжёлых умственных нагрузках!</h5>
+					<div class="info__img--top"><img src="img/card/more_nuts.jpg" alt="Больше орехов" class="img-responsive"></div>
+					<p>Кедровые орехи являются семенами сибирского кедра. Учёные настаивают на том, что по сути орехами их называть нельзя, но именно это название закрепилось за кедром в кулинарных книгах.</p>
+					<p>Кедровые орешки богаты витамином В. Комплекс витаминов B ответственнен за гармоничное развитие человека. Недостаток питательных веществ в организме может вызвать осложения, в том числе ослабление зрения, нарушения психи, а также отвечает за раздражения поверхности языка и губ. Сибирский кедр справится с В-авитаминозом, способствующим негативным тенденциям в организме.</p>
+					<p>Орешки богаты жирорасщепляющими витаминами Е, Р. Люди, предрасположенные к атеросклерозу, с удовольствуем потребляют кедровые плоды, чтобы восполнить недостаток этого витамина. Также несет отвественность за полноценные наследственные процессы и выработку молока у кормящих мам.</p>
+					<div class="text-block">
+						<p>Кедровый орех небезуспешно заменит мясо вегетарианцам. По составу продукт схож с соей, которая также богата лецитином. Кроме этого, орешки славятся как источник йода. </p>
+						<p>В ядрах кедрового ореха много микроэелементов и ценных минеральных веществ. Так например, фосфатидного фосфора в кедровом орехе больше, чем в каком-либо другом орехе или семенах масличных культур. В кедровых орешках также много лецитина, по его содержанию, они близки к сое - наиболее богатому источнику лецитина. Для населения севера и Сибири большое значение имеет тот факт, что в кедровых орехах содержится много йода.</p>
+						<p>Регулярно употребляя кедровый орех можно полностью закрыть потребность организма взрослого человека в аминокислотах, а также меди, марганца, кобальта и цинка (важные и дефицитные микроэлементы).</p>
+						<p>Регулярно употребляя кедровый орех можно полностью закрыть потребность организма взрослого человека в аминокислотах, а также меди, марганца, кобальта и цинка (важные и дефицитные микроэлементы).</p>
+					</div>
+					<div class="info__img--bottom"><img src="img/card/nuts_set.png" alt="Больше орехов" class="img-responsive"></div>
+					<p> В том, что касается противопоказаний к употреблению кедровых орехов, то они отсутствуют. Их можно использовать как для  потребления в пищу, так и в лечебно-профилактических целях. Именно в качестве целебного продукта кедровые орехи использовали жители Сибири и дальнего востока. С его помощью они укрепляли здоровье и поддерживали бодрость духа. В начале прошлого века чудодейственные свойства орехов изучал врач Ф.Автократов, осуществляющий практику в селе Талица под Свердловском. Уже тогда он отмечал положительную динамику у больных, страдающих артериосклерозом, сморщенными почками и патологическими состояниями, сопровождающимися высоким кровяным давлением.</p>
+					<p>Последние исследования показали, что кедровые орешки особенно полезны при иммунодефицитных состояниях, а также аллергических заболеваниях. Их рекомендовано употреблять лицам страдающим атеросклерозом, ишемической болезнью сердца или заболеваниями желудочно-кишечного тракта включая язвенную и желчекаменную болезни.</p>
+					<div class="btn-wrap"><button class="card__btn">1 490<span>₽</span></button></div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- CARD PAGE MORE INFO SECTION END-->
 
 
@@ -330,7 +354,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/scripts.js"></script>
 
-<!-- 	<script>
+	<script>
 
 		wow = new WOW(
 			{
@@ -341,7 +365,7 @@
 
 		wow.init();
 
-	</script> -->
+	</script>
 
 
 </body>
