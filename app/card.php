@@ -188,7 +188,7 @@
 						<p class="nut-history">Кедровые орехи или «семена долголетия» известны с XI века, но в России были обнаружены сибирскими исследователями в XV веке. Известен факт, что еще римские легионеры брали в поход горсть кедровых орехов, которые помогали набраться сил после тяжелых сражений.</p>
 						<div class="important-to-know">
 							<h4>Важно знать о Кедровом орехе:</h4>
-							<ul>
+							<ul class="card__list">
 								<li>Кедровый орех оказывает незаменимое влияние на умственное и физическое развитие детей. </li>
 								<li>Обладает целебными свойствами благодаря высокому содержанию белка.</li>
 								<li>Издавна применялись при нервных расстройствах и язве желудка. </li>
@@ -208,6 +208,114 @@
 	</section>
 	<!-- CARD PAGE DESCRIPTION SECTION END-->
 	
+
+
+	<!-- CARD PAGE WHY ME SECTION START-->
+	<section class="whyMe">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h4>Почему покупают у нас:</h4>
+					<ul class="card__list whyMe__list">
+						<li>Мы поставляем только качественный продукт. Поэтому у нас он всегда свежий. Его перерабатывают прямо перед отправкой к Вам, за неделю.</li>
+						<li>Герметичная упаковка: 6 месяцев сохраняет полезность продукта.</li>
+						<li>У нас быстрая доставка, в тот же день или на следующий, в противном случае доставим заказ бесплатно!</li>
+						<li>Если товар Вас не устроит, мы вернём Вам деньги.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- CARD PAGE WHY ME SECTION END-->
+
+
+
+	<!-- CARD PAGE CATALOG SECTION START-->
+	<div class="section__catalog">
+		<div class="container-fluid">
+			<div class="row no-gutters">
+
+				<!-- greece-but -->
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="catalog__card action wow slideInRight" data-wow-delay=".2s" data-wow-duration="1s">
+						<a href="#">
+						<div class="card__img" style="background-image: url('img/nuts-greece-but.jpg');"></div>
+						<div class="card__content">
+							<div class="card__heading">
+								<h3 class="card__tittle">грецкий орех</h3>
+								<p class="card__subtittle">«бабочка»</p>
+							</div>
+							<div class="card__price">
+								<div class="card__price--new">
+									<div class="row no-gutters">
+										<div class="col-auto"><span class="card__price--accent">1 190</span></div>
+										<div class="col-6"><span class="units">рублей за 1 кг.</span></div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- /.card__content -->
+					</a>
+					</div> <!-- /.catalog__card -->
+				</div> <!-- /.col -->
+				
+				<!-- mindal -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="catalog__card wow slideInRight" data-wow-delay=".2s" data-wow-duration="1s">
+						<a href="#">
+						<div class="card__img" style="background-image: url('img/nuts-mindal.jpg');"></div>
+						<div class="card__content">
+							<div class="card__heading">
+								<h3 class="card__tittle">миндаль</h3>
+								<p class="card__subtittle">очищенный</p>
+							</div>
+							<div class="card__price">
+								<div class="card__price--new">
+									<div class="row no-gutters">
+										<div class="col-auto"><span class="card__price--accent">1 140</span></div>
+										<div class="col-6"><span class="units">рублей за 1 кг.</span></div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- /.card__content -->
+					</a>
+					</div> <!-- /.catalog__card -->
+				</div> <!-- /.col -->
+
+				<!-- pistachios -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="catalog__card wow slideInRight" data-wow-delay=".2s" data-wow-duration="1s">
+						<a href="#">
+						<div class="card__img" style="background-image: url('img/nuts-pistachios.jpg');"></div>
+						<div class="card__content">
+							<div class="card__heading">
+								<h3 class="card__tittle">фисташки</h3>
+								<p class="card__subtittle">несоленые</p>
+							</div>
+							<div class="card__price">
+								<div class="card__price--new">
+									<div class="row no-gutters">
+										<div class="col-auto"><span class="card__price--accent">1 170</span></div>
+										<div class="col-6"><span class="units">рублей за 1 кг.</span></div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- /.card__content -->
+					</a>
+					</div> <!-- /.catalog__card -->
+				</div> <!-- /.col -->
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- CARD PAGE CATALOG SECTION END-->
+
+
+	<!-- CARD PAGE MORE INFO SECTION START-->
+	<!-- CARD PAGE MORE INFO SECTION END-->
+
+
+
 </main>
 
 
