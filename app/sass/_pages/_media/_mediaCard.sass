@@ -3,20 +3,43 @@
 @media only screen and (max-width : 1200px)
 
 	.card__order
-			
 		.card__amount
 			padding-left: 0  
+			
+	.card__description
+		.vitamins, .food-value
+			font-size: 1em 
+			
+		.important-to-know
+			h4
+				margin: 20px 0 10px
+
 
 	/**/
 
 @media only screen and (max-width : 992px)
 
-
+	.card__description 
+		font-size: .9em 
+		.vitamins, .food-value
+			font-size: 1.1em 
+			min-height: 295px
+		.food-value 
+			.to-top 
+				li:first-child
+					margin-top: 0
+		.nut-history
+			margin-top: 20px
 
 	/**/
 
 @media only screen and (max-width : 768px)
-
+	
+	.card__description 
+		.vitamins, .food-value
+			min-height: 341px 
+		.nut-history
+			display: none
 
 	/**/
 
@@ -24,14 +47,16 @@
 
 	.card__order
 		font-size: 0.95em
-		
 		.order__text
 			&.action
 				&:after
-					left: 2%
-					
+					left: 2%	
 		.card__price
 			float: none
+	
+	.card__description 
+		.vitamins, .food-value
+			min-height: auto
 
 	/**/
 
