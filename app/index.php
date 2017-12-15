@@ -49,7 +49,7 @@
 				<!-- kedr -->
 				<div class="col-md-6 col-sm-6">
 					<div class="catalog__card action wow slideInLeft" data-wow-delay=".5s" data-wow-duration="1s">
-					<a href="#">
+					<a href="card.php">
 						<div class="card__img" style="background-image: url('img/nuts-kedr.jpg');"></div>
 						<div class="card__content">
 							<div class="card__heading ">
@@ -73,7 +73,7 @@
 				<!-- greece-but -->
 				<div class="col-md-6 col-sm-6">
 					<div class="catalog__card action wow slideInRight" data-wow-delay=".5s" data-wow-duration="1s">
-						<a href="#">
+						<a href="card.php">
 						<div class="card__img" style="background-image: url('img/nuts-greece-but.jpg');"></div>
 						<div class="card__content">
 							<div class="card__heading">
@@ -97,7 +97,7 @@
 				<!-- greece-1srt -->
 				<div class="col-md-6 col-sm-6">
 					<div class="catalog__card wow slideInLeft" data-wow-delay=".5s" data-wow-duration="1s">
-						<a href="#">
+						<a href="card.php">
 						<div class="card__img" style="background-image: url('img/nuts-greece-1srt.jpg');"></div>
 						<div class="card__content">
 							<div class="card__heading">
@@ -120,7 +120,7 @@
 				<!-- mindal -->
 				<div class="col-md-6 col-sm-6">
 					<div class="catalog__card wow slideInRight" data-wow-delay=".5s" data-wow-duration="1s">
-						<a href="#">
+						<a href="card.php">
 						<div class="card__img" style="background-image: url('img/nuts-mindal.jpg');"></div>
 						<div class="card__content">
 							<div class="card__heading">

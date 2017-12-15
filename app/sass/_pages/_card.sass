@@ -1,10 +1,58 @@
 input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button
     -webkit-appearance: none
     margin: 0
+    display: block
+    width: 5px
+    border-radius: 5px
 
  
 input[type="number"]
     -moz-appearance: textfield
+ 
+.quantity
+	&:after
+		content: "" 
+		display: table
+		clear: both
+		
+.quantity-nav
+	float: left
+	position: relative
+	height: 42px
+
+.quantity-button 
+	position: relative
+	cursor: pointer
+	width: 20px
+	text-align: center
+	color: #FFF
+	font-size: 13px
+	line-height: 1.7
+	-webkit-transform: translateX(-100%)
+	transform: translateX(-100%)
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	-o-user-select: none
+	user-select: none
+
+.quantity-button.quantity-up 
+	position: absolute
+	height: 50%
+	border: 10px solid transparent
+	border-bottom: 10px solid #FFF
+	top: 12px
+	right: -10px
+
+
+.quantity-button.quantity-down 
+	position: absolute
+	right: -10px
+	bottom: -22px
+	height: 50%
+	border: 10px solid transparent
+	border-top: 10px solid #fff
+
 
 
 
@@ -60,6 +108,7 @@ input[type="number"]
 			
 
 	.card__amount
+		float: left
 		width: auto
 		max-width: 2.8em 
 		font-size: 2.1875em
