@@ -1,0 +1,123 @@
+.payment
+	color: #3b3115
+	line-height: 1.2
+	.payment__description
+		padding: 30px 0 75px 
+		background: url("../img/texture.png")  
+		position: relative
+		font-size: 1.125em //18/16px
+		&:after
+			content: ""
+			display: inline-block
+			width: 512px
+			height: 529px
+			position: absolute
+			right: 10%
+			bottom: 7%
+			background: url('../img/social-nutsbag.png') no-repeat
+
+	.description__item
+		h3
+			font-size: 1.1111111em //20/18px
+			color: #2E6E7A
+			text-transform: uppercase
+		p
+			margin: 0
+			a
+				color: #3B3115
+				text-transform: uppercase
+				text-decoration: underline
+				font-weight: bold
+				&:hover
+					text-decoration: none
+	
+
+.payment__quastions
+	padding: 63px 0 45px
+	background: url('../img/section-order-bg.jpg') no-repeat 50%
+	background-size: cover  
+	.quastions__heading
+		text-transform: uppercase
+		h2
+			margin: 0
+			color: #2E6E7A
+			font-family: $ProximaNovaSemibold
+			font-size: 2.5em //40/16px
+		p
+			margin: 25px 0 0 0
+			font-size: 1.875em //30/16px 
+			color: #3B3115
+			text-align: center
+			font-weight: bold
+		.tel
+			margin-top: 0
+			a
+				font-family: $ProximaNovaBold
+				color: #9e4155
+				font-weight: bold
+				font-size: 1.33333333333em //40/30em 
+				
+	.payment__form
+		position: relative
+		margin-top: 70px
+		padding: 0 20px 20px
+		background-color: $heading_color
+		box-shadow: 0 0 30px 1px rgba(0,0,0,.3) 
+		&:before
+			content: ""
+			display: inline-block
+			width: 700px
+			height: 350px
+			position: absolute  
+			right: 0
+			top: -250px
+			background: url('../img/look-here.png') no-repeat 
+			z-index: 1
+		h3
+			margin: 20px 0
+			font-family: $ProximaNovaSemibold
+			text-transform: uppercase
+			font-size: 1.875em //30/16px 
+			color: #9e4155
+			
+		.col-lg-4
+			padding-left: 5px
+			padding-right: 5px
+			
+	textarea
+		width: 100%
+		min-height: 150px 
+		padding: 10px
+		margin-top: 20px
+		font-size: 1.25em //20/16px
+		color: #2e6e7a 
+		resize: none 
+		border: 1px solid currentColor
+		border-radius: 10px
+		background-color: transparent
+		outline: none
+		&::-webkit-input-placeholder
+			color: #2e6e7a
+
+		&:-moz-placeholder
+			color: #2e6e7a
+
+		&::-moz-placeholder
+			color: #2e6e7a
+
+		&:-ms-input-placeholder
+			color: #2e6e7a
+		&:focus
+			border-width: 2px 
+			background-color: #FFF 
+			
+	.form__submit
+		margin-top: 15px
+		input[type="submit"]
+			color: #FFF
+			font-family: $ProximaNovaSemibold
+			font-size: 1.875em //30/16px 
+			border: none
+			background-color: #9e4155
+			&:hover
+				background-color: #C13A57

@@ -257,49 +257,50 @@ body
 			color: #3b3115
 			font-size: 1.875em
 
-			
-	.form__order
-		margin-top: 37px
+
+//УБРАТЬ ВЛОЖЕННОСТЬ	
+.form
+	margin-top: 37px
+	
+	input, select
+		width: 100%
+		padding: 25px 14px
+		background-color: #2e6e7a
+		color: #fff
+		font-size: 1.25em
+		border-radius: 10px
+		border: none  
+		outline: none
+		&:hover
+			background-color: #25545D 
 		
-		input, select
-			width: 100%
-			padding: 25px 14px
-			background-color: #2e6e7a
-			color: #fff
-			font-size: 1.25em
-			border-radius: 10px
-			border: none  
-			outline: none
+		&::-webkit-input-placeholder
+			color: #f0e5d0
+
+		&:-moz-placeholder
+			color: #f0e5d0
+
+		&::-moz-placeholder
+			color: #f0e5d0
+
+		&:-ms-input-placeholder
+			color: #f0e5d0
+		&:focus:required:invalid, &:required:valid
+			color: #f0e5d0
+	
+	.form__submit
+		margin-top: 48px
+		input[type="submit"]
+			background-color: #F0E5D0
+			border: 3px solid #2e6e7a
+			color: #3B3115
+			text-transform: uppercase
+			cursor: pointer
+			transition: transform .2s
+			&:active
+				transform: translate(1px,1px)
 			&:hover
-				background-color: #25545D 
-			
-			&::-webkit-input-placeholder
-				color: #f0e5d0
-
-			&:-moz-placeholder
-				color: #f0e5d0
-
-			&::-moz-placeholder
-				color: #f0e5d0
-
-			&:-ms-input-placeholder
-				color: #f0e5d0
-			&:focus:required:invalid, &:required:valid
-				color: #f0e5d0
-		
-		.form__submit
-			margin-top: 48px
-			input[type="submit"]
-				background-color: #F0E5D0
-				border: 3px solid #2e6e7a
-				color: #3B3115
-				text-transform: uppercase
-				cursor: pointer
-				transition: transform .2s
-				&:active
-					transform: translate(1px,1px)
-				&:hover
-					background-color: #ffe9bf
+				background-color: #ffe9bf
 
 /* MAIN PAGE ORDER SECTION END */
 
@@ -424,8 +425,9 @@ body
 @import "_pages/feedbacks"
 /*PAGE FEEDBACKS STYLES END*/
 
-
-
+/*PAGE PAYMENT STYLES START*/
+@import "_pages/Payment"
+/*PAGE PAYMENT STYLES END*/
 
 
 

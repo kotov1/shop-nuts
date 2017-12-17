@@ -193,7 +193,7 @@
 						</div> <!-- /.row -->
 						
 						<div class="row justify-content-center">
-							<div class="col-lg-7">
+							<div class="col-lg-6">
 								<div class="form__submit">
 									<input type="submit" value="оформить доставку прямо сейчас" class="btn form_order-btn" id="btn1">
 								</div>
@@ -333,7 +333,7 @@
 
 	
 	<link rel="stylesheet" href="css/main.css">
-	<!-- <script src="js/scripts.js"></script> -->
+	<script src="js/scripts.js"></script>
 
 	<script>
 

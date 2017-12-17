@@ -40,7 +40,7 @@ gulp.task('js', function() {
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		proxy: "nuts.dev/feedbacks.php",
+		proxy: "nuts.dev/online-payment.php",
 		notify: false
 	});
 });
