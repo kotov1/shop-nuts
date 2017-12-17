@@ -25,13 +25,15 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
 	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	
 	<!-- VK Community widget -->
 	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
 
 </head>
 
-<body class="page__main">
+<body class="home">
 
 
 	<!-- HEADER START-->
@@ -149,7 +151,7 @@
 
 
 	<!-- MAIN PAGE ORDER SECTION START-->
-	<section class="main__order wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
+	<section class="order wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-8 offset-xl-1 col-sm-12 col-12">
@@ -207,7 +209,7 @@
 
 
 	<!-- MAIN PAGE ADVANTAGES SECTION START-->
-	<section class="main__advantages wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
+	<section class="advantages wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
 		<div class="container">
 			<div class="row">
 
@@ -262,7 +264,7 @@
 
 
 	<!-- MAIN PAGE SOCIAL SECTION START-->
-	<section class="main__social wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
+	<section class="social wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
 		<div class="container">
 			<div class="row">
 
@@ -331,7 +333,7 @@
 
 	
 	<link rel="stylesheet" href="css/main.css">
-	<script src="js/scripts.js"></script>
+	<!-- <script src="js/scripts.js"></script> -->
 
 	<script>
 

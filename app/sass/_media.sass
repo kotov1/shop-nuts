@@ -9,16 +9,13 @@
 
 @media only screen and (max-width : 1200px)
 
-	.main, .catalog
-		.section__catalog
-			.card__content
 
-	.main__order
+	.order
 		&:before
 			display: none
 		&:after
 			transform: translateX(-50%)
-	.main__social
+	.social
 		&:after
 			display: none
 
@@ -37,8 +34,8 @@
 					left: 1%
 					transform: scale(.8)
 		
-	.main
-		.main__order
+	.home
+		.order
 			&:before
 				display: block
 				content: "" 
@@ -59,13 +56,13 @@
 				input, select
 					margin-bottom: 20px 
 					
-		.main__advantages
+		.advantages
 			padding-bottom: 25px
 			.advantages__item
 				margin-bottom: 50px
 
 
-		.main__social
+		.social
 			.comment__author
 				.author__name
 					display: block
@@ -92,14 +89,14 @@
 			.card__price--new
 				max-width: 155px
 				
-	.main
-		.main__order
+	.home
+		.order
 			font-size: .8em 
 			padding-bottom: 25px
 			&:after
 				transform: translateX(-50%) scale(.7)
 				bottom: -75px 
-			.form__order
+			.order
 				width: 75%
 				margin-left: auto
 				margin-right: auto 
@@ -108,7 +105,7 @@
 				input[type="submit"]
 					margin-bottom: 0
 
-		.main__advantages
+		.advantages
 			.advantages__item
 				max-width: 80%
 				margin-left: auto
@@ -118,13 +115,13 @@
 
 @media only screen and (max-width : 576px)
 
-	.main, .catalog
+	.home, .catalog
 		.section__catalog
 			.card__content
 				margin-left: 5em
 
-	.main
-		.main__order
+	.home
+		.order
 			font-size: .8em 
 			padding-bottom: 25px
 			&:after
@@ -133,7 +130,7 @@
 				.form__submit
 					margin-top: 15px 
 
-		.main__social
+		.social
 			#vk_groups, h4
 				display: none
 
@@ -141,13 +138,13 @@
 
 @media only screen and (max-width : 480px)
 
-	.main, .catalog
+	.home, .catalog
 		.section__catalog
 			.card__content
 				margin-left: 2em
 
-	.main
-		.main__order
+	.home
+		.order
 			h2
 				font-size: 3em
 				margin-bottom: 20px 
@@ -174,3 +171,9 @@
 /*CARD MEDIA STYLES START*/
 @import "_pages/_media/mediaCard"
 /*CARD MEDIA STYLES END*/
+
+
+
+/*FEEDBACKS MEDIA STYLES START*/
+@import "_pages/_media/mediaFeedbacks"
+/*FEEDBACKS MEDIA STYLES END*/
