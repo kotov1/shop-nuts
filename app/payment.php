@@ -26,11 +26,6 @@
 
 	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	
-	<!-- VK Community widget -->
-	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
-
 </head>
 
 <body class="payment page__payment">
@@ -44,7 +39,7 @@
 <main class="payment-content">
 	
 	<!-- PAYMENT PAGE DESCRIPTION SECTION START-->
-	<section class="payment__description">
+	<section class="payment__description wow fadeIn" data-wow-duration="1s">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 col-12">
@@ -61,7 +56,7 @@
 						<h3>Предоплата при оформлении  доставки почтой России</h3>
 						<p>При оформлении заказа в регионы РФ, доставка осуществляется почтой России.</p>
 						<p>Заказы отправляются по 50% предоплате.</p>
-						<p>Предоплата вносится на странице: <a href="index.php">Онлайн оплата.</a></p>
+						<p>Предоплата вносится на странице: <a href="online-payment.php">Онлайн оплата.</a></p>
 						<p>Предоплату можно внести посредством Яндекс денег или при помощи оплаты банковской картой.  В обоих случаях, с платежа взымается комиссия 3%.</p>
 					</div>
 				</div> <!-- /.col -->
@@ -73,7 +68,7 @@
 
 
 	<!-- PAYMENT PAGE QUASTIONS SECTION START-->
-	<section class="payment__quastions">
+	<section class="payment__quastions wow fadeIn" data-wow-duration="1s">
 		<div class="container">
 
 			<div class="quastions__heading">
@@ -92,7 +87,7 @@
 
 			<div class="row">
 				<div class="col-12">
-					<form action="" class="form payment__form">
+					<form action="" class="form quastions__form">
 
 						<div class="row">
 							<div class="col-xl-5 offset-xl-1 col-lg-6 col-12"><h3>задайте свой вопрос</h3></div>
@@ -146,7 +141,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/scripts.js"></script>
 
-<!-- 	<script>
+	<script>
 
 		wow = new WOW(
 			{
@@ -157,7 +152,7 @@
 
 		wow.init();
 
-	</script> -->
+	</script>
 
 
 </body>

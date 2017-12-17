@@ -1,0 +1,63 @@
+.transaction
+	padding: 30px 0 40px
+	background: url("../img/texture.png")
+	
+	.transaction__form
+		color: #3B3115
+		label
+			font-size: 1.25em //20/16px
+			text-align: right
+			display: block
+		input
+			margin-bottom: 10px
+			font-size: 1.125em  //18/16px
+			background-color: transparent
+			border: 2px solid #2e6e7a
+			color: #3B3115
+			
+			&::-webkit-input-placeholder
+				color: #3B3115
+
+			&:-moz-placeholder
+				color: #3B3115
+
+			&::-moz-placeholder
+				color: #3B3115
+
+			&:-ms-input-placeholder
+				color: #3B3115
+			&:focus:required:invalid, &:required:valid
+				color: #3B3115
+		.online-service
+			width: 100%
+			height: 75px
+			display: flex
+			justify-content: space-between 
+			align-items: center
+			padding: 0
+			border: 2px solid #2e6e7a
+			border-radius: 10px
+			font-size: 1.125em  //18/16px
+			.visa, .yandex
+				display: inline-block
+				width: 50%
+				height: 72%
+				background-repeat: no-repeat
+				background-size: 100%
+				background-position: 0 0
+				cursor: pointer
+			.yandex
+				background-image: url('../img/yandex-money.png') 
+			.visa
+				background-image: url('../img/visa.png') 
+				background-position: -10px 0 
+				
+	.transaction__item
+		height: 100%
+		position: relative
+		img
+			width: 80%
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate(-50%,-50%)

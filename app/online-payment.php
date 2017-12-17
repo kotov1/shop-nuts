@@ -26,14 +26,9 @@
 
 	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	
-	<!-- VK Community widget -->
-	<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
-
 </head>
 
-<body class="payment page__payment">
+<body class="payment page__online-payment">
 
 
 	<!-- HEADER START-->
@@ -44,27 +39,48 @@
 <main class="payment-content">
 	
 	<!-- PAYMENT PAGE DESCRIPTION SECTION START-->
-	<section class="payment__description">
+	<section class="transaction wow fadeIn" data-wow-duration="1s">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-6 col-12">
-					<div class="description__item">
-						<h3>Оплата наличными при получении</h3>
-						<p>Все заказы, кроме заказов отправленных почтой России оплачиваются наличными при получении.</p>
-						<p>Мы принимаем к оплате только наличные рубли. Цены в каталоге также указаны в рублях.</p>
+
+				<div class="col-lg-6 col-md-8">
+					<form action="" class="form transaction__form">
+
+						<div class="row">
+							<div class="col-sm-4 align-self-center"><label for="orderNumber">Назначение перевода</label></div>
+							<div class="col-sm-8"><input type="text" id="orderNumber" name="Номер заказа" placeholder="Укажите номер заказа" required></div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 align-self-center"><label for="money">Сумма</label></div>
+							<div class="col-sm-8"><input type="number" id="money" name="Сумма" placeholder="0000,0  рублей" required></div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 align-self-center"><label>Способ оплаты</label></div>
+							<div class="col-sm-8">
+								<div class="online-service">
+									<i class="yandex"></i>
+									<i class="visa"></i>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-sm-8 offset-sm-4 col-12">
+								<div class="form__submit">
+									<input type="submit" value="Отправить" class="btn form_order-btn" id="btn1">
+								</div>
+							</div>
+						</div> <!-- /.row -->
+
+
+					</form>
+				</div>
+
+				<div class="col-lg-6 col-md-4">
+					<div class="transaction__item">
+						<img src="img/shop-item.png" alt="Изображение товара" class="img-responsive">
 					</div>
-					<div class="description__item">
-						<h3>Оплата наложенным платежом</h3>
-						<p>При оформлении заказа с доставкой Почтой России оплата производится  наложенным платежом, т.е. непосредственно в отделении почты России при получении заказа. К оплате наложенным платежом принимаются только наличные рубли.</p>
-					</div>
-					<div class="description__item">
-						<h3>Предоплата при оформлении  доставки почтой России</h3>
-						<p>При оформлении заказа в регионы РФ, доставка осуществляется почтой России.</p>
-						<p>Заказы отправляются по 50% предоплате.</p>
-						<p>Предоплата вносится на странице: <a href="index.php">Онлайн оплата.</a></p>
-						<p>Предоплату можно внести посредством Яндекс денег или при помощи оплаты банковской картой.  В обоих случаях, с платежа взымается комиссия 3%.</p>
-					</div>
-				</div> <!-- /.col -->
+				</div>
+
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</section>
@@ -73,7 +89,7 @@
 
 
 	<!-- PAYMENT PAGE QUASTIONS SECTION START-->
-	<section class="payment__quastions">
+	<section class="payment__quastions wow fadeIn" data-wow-duration="1s">
 		<div class="container">
 
 			<div class="quastions__heading">
@@ -92,7 +108,7 @@
 
 			<div class="row">
 				<div class="col-12">
-					<form action="" class="form payment__form">
+					<form action="" class="form quastions__form">
 
 						<div class="row">
 							<div class="col-xl-5 offset-xl-1 col-lg-6 col-12"><h3>задайте свой вопрос</h3></div>
@@ -146,7 +162,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/scripts.js"></script>
 
-<!-- 	<script>
+	<script>
 
 		wow = new WOW(
 			{
@@ -157,7 +173,7 @@
 
 		wow.init();
 
-	</script> -->
+	</script>
 
 
 </body>
