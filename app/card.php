@@ -55,12 +55,12 @@
 						<div class="order__count">
 							<p>Выберите количество:</p>
 							<div class="row no-gutters">
-								<div class="col-auto">
+								<div class="col-sm-auto col-12">
 									<div class="quantity">
 										<input type="number" class="card__amount" value="1" min="0">
 									</div>
 								</div>
-								<div class="col align-self-center">
+								<div class="col-sm col-12 align-self-center">
 									<span class="card__price">Упаковка по 1кг. за <span class="card__price--accent">1490</span> рублей</span>
 								</div>
 							</div>
@@ -86,8 +86,6 @@
 						<h3>Кедровый орех заботится о здоровье — это факт!</h3>
 					</div>
 				</div>
-
-				<!-- <div class="row"> -->
 
 					<div class="col-lg-6 col-12">
 						<div class="row">

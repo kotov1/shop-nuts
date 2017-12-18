@@ -40,18 +40,44 @@
 			font-size: 1.125em  //18/16px
 			.visa, .yandex
 				display: inline-block
-				width: 50%
-				height: 72%
+				width: 90%
+				height: 70%
 				background-repeat: no-repeat
 				background-size: 100%
 				background-position: 0 0
 				cursor: pointer
+				
 			.yandex
 				background-image: url('../img/yandex-money.png') 
 			.visa
 				background-image: url('../img/visa.png') 
 				background-position: -10px 0 
 				
+		.radio-button__radio
+			width: 100%
+			display: block
+			height: 100%
+			text-align: center
+			display: flex
+			align-items: center
+				
+		.radio-button__control
+			display: none
+			&:checked ~ i
+				transform: scale(1.1)
+		
+				
+
+
+
+
+
+
+
+
+
+
+
 	.transaction__item
 		height: 100%
 		position: relative

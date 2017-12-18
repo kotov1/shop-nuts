@@ -44,22 +44,38 @@
 			<div class="row">
 
 				<div class="col-lg-6 col-md-8">
-					<form action="" class="form transaction__form">
+					<form class="form transaction__form" data-bem="{&quot;form&quot;:{}}" method="POST" target="_blank" action="https://money.yandex.ru/quickpay/confirm.xml" _lpchecked="1">
+				<input class="native-input native-input_type_hidden" name="receiver" value="410015181266604" type="hidden">
+				<input class="native-input native-input_type_hidden" name="successURL" value="http://nuts.wstudio24.ru/" type="hidden">
+				<input class="native-input native-input_type_hidden" name="label" value="" type="hidden">
+				<input class="native-input native-input_type_hidden" name="quickpay-form" value="donate" type="hidden">
+				<input class="native-input native-input_type_hidden" name="is-inner-form" value="true" type="hidden">
+				<input class="native-input native-input_type_hidden" name="referer" value="http://nuts.wstudio24.ru/online-payment.php" type="hidden">
+				<input class="native-input native-input_type_hidden" name="need-fio" value="false" type="hidden">
+				<input class="native-input native-input_type_hidden" name="need-email" value="false" type="hidden">
+				<input class="native-input native-input_type_hidden" name="need-phone" value="false" type="hidden">
+				<input class="native-input native-input_type_hidden" name="need-address" value="false" type="hidden">
 
 						<div class="row">
 							<div class="col-sm-4 align-self-center"><label for="orderNumber">Назначение перевода</label></div>
-							<div class="col-sm-8"><input type="text" id="orderNumber" name="Номер заказа" placeholder="Укажите номер заказа" required></div>
+							<div class="col-sm-8"><input type="text" id="orderNumber" name="targets" placeholder="Укажите номер заказа" required></div>
 						</div>
 						<div class="row">
 							<div class="col-sm-4 align-self-center"><label for="money">Сумма</label></div>
-							<div class="col-sm-8"><input type="number" id="money" name="Сумма" placeholder="0000,0  рублей" required></div>
+							<div class="col-sm-8"><input type="number" id="money" name="sum" value="" placeholder="0000,0  рублей" data-type="number" required></div>
 						</div>
 						<div class="row">
 							<div class="col-sm-4 align-self-center"><label>Способ оплаты</label></div>
 							<div class="col-sm-8">
 								<div class="online-service">
+									<label class="radio-button__radio" for="paymentYandex">
+									<input class="radio-button__control" value="PC" id="paymentYandex" type="radio" name="paymentType">
 									<i class="yandex"></i>
+								</label>
+								<label class="radio-button__radio" for="paymentVisa">
+									<input class="radio-button__control" value="AC" id="paymentVisa" type="radio" name="paymentType">
 									<i class="visa"></i>
+								</label>
 								</div>
 							</div>
 						</div>
@@ -85,7 +101,6 @@
 		</div> <!-- /.container -->
 	</section>
 	<!-- PAYMENT PAGE DESCRIPTION SECTION END-->
-
 
 
 	<!-- PAYMENT PAGE QUASTIONS SECTION START-->

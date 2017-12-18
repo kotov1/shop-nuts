@@ -55,9 +55,9 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="comment__author">
-									<div class="row justify-content-xl-start justify-content-md-center">
+									<div class="row justify-content-xl-start justify-content-center">
 										<div class="col-xl-5 col-12"><span class="author__name">Константин Малашенко</span></div>
-										<div class="col-xl-10 col-12">
+										<div class="col-auto">
 											<div class="vk-link-wrap">
 												<div class="vk-link"><a href="https://vk.com/kostyam1977">https://vk.com/kostyam1977</a></div>
 											</div>
@@ -94,9 +94,9 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="comment__author">
-									<div class="row justify-content-center">
+									<div class="row justify-content-xl-start justify-content-center">
 										<div class="col-xl-5 col-12"><span class="author__name">Елизавета Пестова</span></div>
-										<div class="col-xl-10 col-12">
+										<div class="col-auto">
 											<div class="vk-link-wrap">
 												<div class="vk-link"><a href="https://vk.com/elizaveta_pestova">https://vk.com/elizaveta_pestova</a></div>
 											</div>
@@ -119,9 +119,9 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="comment__author">
-									<div class="row justify-content-xl-start justify-content-md-center">
+									<div class="row justify-content-xl-start justify-content-center">
 										<div class="col-xl-5 col-12"><span class="author__name">Владимир Кравчук</span></div>
-										<div class="col-xl-10 col-12">
+										<div class="col-auto">
 											<div class="vk-link-wrap">
 												<div class="vk-link"><a href="https://vk.com/fun_on">https://vk.com/fun_on</a></div>
 											</div>
@@ -144,9 +144,9 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="comment__author">
-									<div class="row justify-content-xl-start justify-content-md-center">
+									<div class="row justify-content-xl-start justify-content-center">
 										<div class="col-xl-5 col-12"><span class="author__name">Кристина Рябига</span></div>
-										<div class="col-xl-10 col-12">
+										<div class="col-auto">
 											<div class="vk-link-wrap">
 												<div class="vk-link"><a href="https://vk.com/ryabiga">https://vk.com/ryabiga</a></div>
 											</div>
@@ -169,9 +169,9 @@
 							</div>
 							<div class="col-lg-8">
 								<div class="comment__author">
-									<div class="row justify-content-xl-start justify-content-md-center">
+									<div class="row justify-content-xl-start justify-content-center">
 										<div class="col-xl-5 col-12"><span class="author__name">Настя Котько</span></div>
-										<div class="col-xl-10 col-12">
+										<div class="col-auto">
 											<div class="vk-link-wrap">
 												<div class="vk-link"><a href="https://vk.com/id12721925">https://vk.com/id12721925</a></div>
 											</div>

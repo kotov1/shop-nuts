@@ -2,8 +2,6 @@
 
 @media only screen and (max-width : 1200px)
 
-	.quantity-nav
-		display: none
 
 	.card__description
 		.vitamins, .food-value
@@ -58,6 +56,8 @@
 @media only screen and (max-width : 576px)
 
 	.card__order
+		min-height: auto 
+		padding-bottom: 50px
 		font-size: 0.95em
 		.order__text
 			&.action
@@ -65,6 +65,9 @@
 					left: 2%	
 		.card__price
 			float: none
+			
+		.quantity-button.quantity-up
+			top: 6px
 	
 	.card__description 
 		.vitamins, .food-value
@@ -98,8 +101,11 @@
 			margin-top: 1.5em
 		
 		.card__price
-			padding: 0 .8em 
-			float: right
+			font-size: 1.2em
+			// padding: 0 .8em 
+			float: left
+			margin-left: 0
+			margin-top: 10px
 			
 	.card__btn
 		margin-top: 1em
