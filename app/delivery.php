@@ -42,47 +42,163 @@
 	<section class="delivery__description">
 		<div class="container">
 			<div class="row">
+
 				<div class="col-lg-6">
-					<div class="delivery__heading">
-						<div class="row no-gutters align-items-center">
-							<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
-							<div class="col"><h4>По Санкт-Петербургу:</h4></div>
+					<div class="delivery__post delivery__post--1 wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
+						<div class="delivery__heading">
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
+								<div class="col"><h4>По Санкт-Петербургу:</h4></div>
+							</div>
+						</div>
+						<div class="delivery__text">
+							<p class="mb-20"><b>Стоимость доставки</b> по городу составляет <b>200 рублей!</b> При заказе от 3000 рублей доставка осуществляется <b>БЕСПЛАТНО!</b></p>
+							<p class="mb-20"><b>Время доставки:</b><br>по будням - с 10 до 13 часов, с 13 до 18 часов или с 18 до 21 часа по выходным - с 10 до 18 часов. </p>
+							<p>При подтверждении заказа в рабочий день до 9.30 <b>доставка</b> возможна <b>в день заказа!</b></p>
 						</div>
 					</div>
-					<div class="delivery__text">
-						<p><b>Стоимость доставки</b> по городу составляет <b>200 рублей!</b> При заказе от 3000 рублей доставка осуществляется <b>БЕСПЛАТНО!</b></p>
-						<p><b>Время доставки:</b><br>по будням - с 10 до 13 часов, с 13 до 18 часов или с 18 до 21 часа по выходным - с 10 до 18 часов. </p>
-						<p>При подтверждении заказа в рабочий день до 9.30 <b>доставка</b> возможна <b>в день заказа!</b></p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-4">
-					<div class="delivery__img">
+				</div> <!-- /.col -->
+
+				<div class="col-lg-6 col-md-12 ">
+					<div class="delivery__img wow fadeInRight" data-wow-delay=".5s" data-wow-duration="1s">
 						<img src="img/delivery/car.png" alt="Доставка" class="img-responsive">
+						<div class="logo">
+							<img src="img/ru.png" alt="logo" class="img-responsive">
+							<p class="site-description">орехи со всего мира</p>
+						</div>
 					</div>
 				</div>
+
 			</div>
 			<div class="row">
+
 				<div class="col-12">
-					<div class="row">
-						<div class="col-12"></div>
+					<div class="delivery__post delivery__post--2 wow fadeInUp" data-wow-duration="1s">
+						<div class="delivery__heading">
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
+								<div class="col"><h4>По ленинградской области:</h4></div>
+							</div>
+						</div>
+						<div class="delivery__text">
+							<div class="row">
+								<div class="col-12">
+									<p class="mb-20"><b>Стоимость доставки по ленинградской области зависит от отдаленности населенного пункта:</b></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6">
+									<p>До 10 км. от кольцевой - 300 рублей</p>
+									<p>От 10 до 15 км. от кольцевой - 400 рублей</p>
+									<p>От 15 до 20 км. от кольцевой - 500 рублей</p>
+									<p>От 20 до 30 км. от кольцевой - 600 рублей</p>
+									<p>От 30 до 50 км. от кольцевой - 800 рублей</p>
+									<p>От 50 до 100 км. от кольцевой - 1000 рублей</p>
+									<p>От 100 км. от кольцевой - 1300 рублей</p>
+								</div>
+								<div class="col-lg-6">
+									<p class="mb-20"><b>Время доставки</b> по ленинградской области зависит от отдаленности населенного пункта:</p>
+									<p>с 10 до 18 часов</p>
+									<p>До 30 км. от кольцевой - на следующий день</p>
+									<p>От 30 до 50 км. от кольцевой - через день</p>
+									<p>От 50 км. от кольцевой - в течении 2-5 дней</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-9 col-lg-auto mx-lg-auto">
+									<p class="mt-30 ta-center">В некоторые населенные пункты Ленинградской области <b>(<a href="#">список населенных пунктов</a>)</b><br> при подтверждении заказа в рабочий день до 9.30 <b>доставка</b> возможна <b>в день заказа!</b></p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-6"></div>
-						<div class="col-lg-6"></div>
-					</div>
-					<div class="row">
-						<div class="col-lg-8 mx-lg-auto"></div>
-					</div>
-				</div>
+				</div> <!-- /.col -->
+
 			</div>
+
 			<div class="row">
-				<div class="col-lg-6"></div>
-				<div class="col-lg-6"></div>
-			</div>
+				<div class="col-lg-6">
+					<div class="delivery__post delivery__post--3 wow fadeInLeft" data-wow-duration="1s">
+						<div class="delivery__heading">
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
+								<div class="col"><h4>По Москве:</h4></div>
+							</div>
+						</div>
+						<div class="delivery__text">
+							<p class="mb-20"><b>Стоимость доставки</b> по городу составляет <b>350 рублей.</b></p>
+							<p class="mb-20"><b>Время доставки:</b><br>по будням - с 10 до 13 часов, с 13 до 18 часов, по выходным - с 10 до 18 часов.</p>
+							<p>При оформлении заказа до 14.00 доставка осуществляется на следующий день после оформления заказа.</p>
+							<p>При оформлении заказа после 14.00 доставка осуществляется через день.</p>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+				<div class="col-lg-6">
+					<div class="delivery__post delivery__post--4 wow fadeInRight" data-wow-duration="1s">
+						<div class="delivery__heading">
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
+								<div class="col"><h4>По московской области:</h4></div>
+							</div>
+						</div>
+						<div class="delivery__text">
+							<p><b>Стоимость доставки</b> по московской области зависит ототдаленности населенного пункта:</p>
+							<p>Стоимость доставки по московской области зависит от отдаленности населенного пункта: </p>
+							<p>От 5 до 10 км. от кольцевой - 550 рублей</p>
+							<p>От 10 до 15 км. от кольцевой - 650 рублей</p>
+							<p>От 15 до 20 км. от кольцевой - 750 рублей</p>
+							<p class="mb-20">От 20 до 25 км. от кольцевой - 850 рублей</p>
+							<p><b>Время доставки</b> по московской области зависит от отдаленности населенного пункта:</p>
+							<p>с 10 до 18 часов</p>
+							<p>До 15 км. от кольцевой - на следующий день </p>
+							<p>От 15 до 25 км. от кольцевой – через день</p>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+			</div> <!-- /.row -->
+
 			<div class="row">
-				<div class="col-lg-6"></div>
-				<div class="col-lg-6"></div>
-			</div>
+				<div class="col-lg-6">
+					<div class="delivery__post delivery__post--5 wow fadeInLeft" data-wow-duration="1s">
+						<div class="delivery__heading">
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
+								<div class="col"><h4>По России:</h4></div>
+							</div>
+						</div>
+						<div class="delivery__text">
+							<p><b>Доставка</b> производится во все регионы РФ Почтой России.</p>
+							<p>Стоимость доставки по России составляет <b>350 рублей</b>. </p>
+							<p>Мы отправляем заказы в регионы РФ с обязательной предоплатой в 50% от стоимости заказа.</p>
+							<p>Предоплата производится через форму на сайте:</p>
+							<p class="mb-20"><b><a href="online-payment.php">Форма для внесение оплаты и предоплаты</a></b></p>
+							<p>Доставка обычно занимает до 10 дней, в зависимости от региона. Информацию о сроках доставки Почтой России можно получить <b><a href="#">здесь</a></b>, указав город отправления (Санкт-Петербург), город доставки и вес отправления.</p>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+				<div class="col-lg-6">
+					<div class="delivery__post delivery__post--6 wow fadeInRight" data-wow-duration="1s">
+						<div class="delivery__heading">
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto"><div class="heading__icon"><img src="img/delivery/deliveryIcon.png" alt=""></div></div>
+								<div class="col"><h4>Самовывоз:</h4></div>
+							</div>
+						</div>
+						<div class="delivery__text">
+							<p>Заказ можно забрать самостоятельно <b>по адресу:</b></p>
+							<p>м. Московские ворота, Лиговский проспект, дом 256, литера В (отдельно стоящее 2-х-этажное здание слева от основного корпуса)</p>
+							<p><b>Режим работы ПВЗ:</b></p>
+							<p>с понедельника по четверг с 09:00-18:00 часов,</p>
+							<p>в пятницу (короткий день) с 09:00-17:00 часов,</p>
+							<p>по субботам с 12:00-15:00 часов,</p>
+							<p>по субботам с 12:00-15:00 часов,</p>
+							<p>Самовывоз осуществляется бесплатно.</p>
+							<p class="mb-20">Заказ хранится в течении 7 календарных дней со дня оформления.</p>
+							<p>При подтверждении заказа в рабочий день до 9.30 <b>забрать</b> его в ПВЗ Вы можете уже <b>в день заказа</b> после 14:00 часов!</p>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+			</div> <!-- /.row -->
+
 		</div>
 	</section>
 	<!-- PAYMENT PAGE DESCRIPTION SECTION END-->

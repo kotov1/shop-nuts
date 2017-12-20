@@ -1,33 +1,94 @@
 	
 .delivery__description
+	padding: 27px 0 40px
+	background: url('../img/texture.png') 
 	position: relative
 	line-height: 1.2
 	
+	.delivery__post
+		margin-top: 25px
+
 	.delivery__heading
-		padding-left: 20px 
+		padding-left: 10px 
 
 	h4
-		margin: 0
-		margin-left: 10px 
+		margin: 12px 0 0 10px
 		text-transform: uppercase
 		color: #205C55
 		
 	.delivery__text
-		padding: 0 0 1.25em
-		font-size: 1.125em //18/16px 
+		padding: 1.1em .7em
+		color: #3B3115 
+		border: 1px solid currentColor 
+		border-radius: 8px
 		p
-			margin: 0 0 1.25em 0
-			&:last-child
-				margin-bottom: 0
-
-
+			margin: 0
+			font-size: 1.125em //18/16px 
+			b
+				font-size: 1.111111111em //20/18px
+				a
+					color: inherit
+					position: relative
+					&::after
+						content: ''
+						position: absolute
+						width: 100%
+						height: 1px
+						bottom: 0
+						left: 0
+						background-color: rgb(59,49,21)
+						visibility: visible
+						transform: scaleX(1)
+						transition: all .5s
+						color: #000
+					&:hover::after
+						visibility: hidden
+						transform: scaleX(0)
+						&:active
+							color: red
+					 
+		.mb-20
+			margin-bottom: 20px
+		.mt-30
+			margin-top: 30px
+			
+	.delivery__post--2
+		.delivery__text
+			padding-bottom: 40px 
+			
+	.delivery__post--3, .delivery__post--4
+		.delivery__text
+			min-height: 337px
+			height: 1px //fix IE min-height 
+			
+	.delivery__post--5, .delivery__post--6
+		.delivery__text
+			min-height: 364px
+			height: 1px //fix IE min-height 
 
 .delivery__img
 	height: 100%
 	position: relative
-	img
-		width: 80%
+	>img
+		width: 85%
+		position: relative
+		left: 50%
+		top: 30px
+		transform: translateX(-45%)
+	.logo
 		position: absolute
 		left: 50%
-		top: 50%
-		transform: translate(-50%,-50%)
+		top: 115px
+		transform: translateX(4%)
+		text-align: center
+		img
+			width: 70%
+			margin: 0 auto
+		.site-description
+			text-transform: uppercase
+			letter-spacing: 1.5px
+			font-size: 14px
+			margin: 0
+			padding: 0
+			line-height: 1
+			font-weight: bold
