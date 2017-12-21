@@ -37,14 +37,16 @@
 
 
 <main class="about-content">
-	
+
+
+	<!-- ABOUT PAGE DESCRIPTION SECTION START-->
 	<section class="about__description">
 		<div class="container">
 
 			<div class="row no-gutters">
 
 				<div class="col-xl-6 col-lg-7">
-					<div class="about__text">
+					<div class="about__text wow fadeInLeft" data-wow-duration="1s">
 						<h4>Интернет магазин Oreshki 8. Орехи и сухофрукты в Санкт-Петербурге</h4>
 						<p>Заботясь о здоровье родных и близких, мы выбираем только лучшие продукты в Санкт-Петербурге. Быстро купить орех – значит сэкономить время на общение, тем более, что выбрать есть из чего.</p>
 						<div class="advantages__text">
@@ -58,7 +60,7 @@
 				</div> <!-- /.col -->
 
 				<div class="col-xl-6 col-lg-5">
-					<div class="about__img"><img src="img/about/about-nuts1.jpg" alt="Интернет магазин Oreshki 8" class="img-responsive"></div>
+					<div class="about__img wow fadeInRight" data-wow-duration="1s"><img src="img/about/about-nuts1.jpg" alt="Интернет магазин Oreshki 8" class="img-responsive"></div>
 				</div> <!-- /.col -->
 
 			</div> <!-- /.row -->
@@ -66,11 +68,11 @@
 			<div class="row no-gutters">
 
 				<div class="col-xl-6 col-lg-5 order-xl-1 order-2">
-					<div class="about__img"><img src="img/about/about-nuts2.jpg" alt="Интернет магазин Oreshki 8" class="img-responsive"></div>
+					<div class="about__img wow fadeInLeft" data-wow-duration="1s"><img src="img/about/about-nuts2.jpg" alt="Интернет магазин Oreshki 8" class="img-responsive"></div>
 				</div> <!-- /.col -->
 
 				<div class="col-xl-6 col-lg-7 order-xl-2 order-1">
-					<div class="about__text pt-10">
+					<div class="about__text pt-10 wow fadeInRight" data-wow-duration="1s">
 						<h4>Где купить очищенные кедровые орехи из Сибири?</h4>
 						<p>Интернет-магазин Oreshki8 предлагает кедровые орехи в СПб. Вкусные и полезные, они обладают целебными свойствами благодаря высокому содержанию белка. Ядра кедрового ореха купить следует при нервных расстройствах и язве желудка. Рекомендуется потчевать себя орехом при атеросклерозе. Если ищете где купить кедровые орехи обратитесь в наш Интернет-магазин. Орешки фасуют прямо перед отправкой. Они доставляются в герметичной упаковке, поэтому и стоит купить кедровые орехи в СПб именно у нас в магазине.</p>
 						<p>Мы предлагаем изумительного вкуса кедровый орех цена которого очень привлекательна. Для сравнения загляните в гипермаркеты или на рынок, вы приятно удивитесь, когда увидите, сколько сэкономили благодаря нашему интернет-магазину. Для любопытных можем прислать фотографии ценников из разных магазинов Санкт-Петербурга. Стоимость кедрового ореха у них по сравнению с нашим ассортиментом выше в 2—4 раза. Продажа кедровых орехов в Санкт-Петербурге осуществляется нашим интернет-магазином с весны 2007 года. Мы проверяем наших поставщиков на предмет экологичности продукта и всегда рады ответить на вопросы клиентов.</p>
@@ -82,72 +84,60 @@
 
 		</div> <!-- /.container -->
 	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<!-- ABOUT PAGE DESCRIPTION SECTION END-->
 
 
 	<!-- ABOUT PAGE ADVANTAGES SECTION START-->
-	<section class="advantages wow fadeIn" data-wow-delay=".5s" data-wow-duration=".5s">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-lg-2 col-md-6">
-					<div class="advantages__item">
-						<div class="advantages__img"><img src="img/adv-world.png" alt=""></div>
-						<div class="advantages__text">Работаем напрямую с производителями из Азии, Европы и США</div>
+	<section class="advantages" >
+		<div class="wow fadeIn" data-wow-duration="1s">
+			<div class="container">
+				<div class="row">
+			
+					<div class="col-lg-2 col-md-6">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="img/adv-world.png" alt=""></div>
+							<div class="advantages__text">Работаем напрямую с производителями из Азии, Европы и США</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-lg-2 col-md-6">
-					<div class="advantages__item">
-						<div class="advantages__img"><img src="img/adv-price.png" alt=""></div>
-						<div class="advantages__text">У нас всегда приятные цены, акции и хорошие скидки</div>
+			
+					<div class="col-lg-2 col-md-6">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="img/adv-price.png" alt=""></div>
+							<div class="advantages__text">У нас всегда приятные цены, акции и хорошие скидки</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-lg-2 col-md-6">
-					<div class="advantages__item">
-						<div class="advantages__img"><img src="img/adv-payment.png" alt=""></div>
-						<div class="advantages__text">Для вашего удобства мы предлагаем разные варианты оплаты</div>
+			
+					<div class="col-lg-2 col-md-6">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="img/adv-payment.png" alt=""></div>
+							<div class="advantages__text">Для вашего удобства мы предлагаем разные варианты оплаты</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-lg-2 col-md-6">
-					<div class="advantages__item">
-						<div class="advantages__img"><img src="img/adv-quality.png" alt=""></div>
-						<div class="advantages__text">Мы предлагаем продукты только высокого качества</div>
+			
+					<div class="col-lg-2 col-md-6">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="img/adv-quality.png" alt=""></div>
+							<div class="advantages__text">Мы предлагаем продукты только высокого качества</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-lg-2 col-md-6">
-					<div class="advantages__item">
-						<div class="advantages__img"><img src="img/adv-payback.png" alt=""></div>
-						<div class="advantages__text">Вернем вам деньги, если заказ вам не подойдет</div>
+			
+					<div class="col-lg-2 col-md-6">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="img/adv-payback.png" alt=""></div>
+							<div class="advantages__text">Вернем вам деньги, если заказ вам не подойдет</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-lg-2 col-md-6">
-					<div class="advantages__item">
-						<div class="advantages__img"><img src="img/adv-currier.png" alt=""></div>
-						<div class="advantages__text">Доставим вам заказ по Санкт-Петербургу в течение 12 часов</div>
+			
+					<div class="col-lg-2 col-md-6">
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="img/adv-currier.png" alt=""></div>
+							<div class="advantages__text">Доставим вам заказ по Санкт-Петербургу в течение 12 часов</div>
+						</div>
 					</div>
-				</div>
-
-			</div> <!-- /.row -->
-		</div> <!-- /.container -->
+			
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</div>
 	</section>
 	<!-- ABOUT PAGE ADVANTAGES SECTION END-->
 	
@@ -165,7 +155,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/scripts.js"></script>
 
-<!-- 	<script>
+	<script>
 
 		wow = new WOW(
 			{
@@ -176,7 +166,7 @@
 
 		wow.init();
 
-	</script> -->
+	</script>
 
 
 </body>
